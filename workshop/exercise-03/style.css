@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    font-family: Poppins, sans-serif;
+}
+
+.container {
+    background-image: url('./imgs/bg.jpg');
+    background-size: 100%;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.content {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h1 {
+    text-shadow: 2px 2px black;
+}
