@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+header {
+    padding: 10px;
+}
+
+footer {
+    padding: 10px;
+}
+
+h1 {
+    text-align: center ;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section {
+    text-align: center;
+    background-color: rgb(48, 45, 45);
+    color: #ffffff;
+    
+}
+
+.sub-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
